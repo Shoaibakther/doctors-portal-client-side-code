@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "name": "Brain Cancer",
+        "detail": "",
+        "description": "Our Brain Tumor Center experts deliver care to more than 800 patients annually through the UCLA Jonsson Comprehensive Cancer Center (JCCC). The National Cancer Institute designated the JCCC and the UCLA Health Brain Tumor Center as one of only six Brain Cancer Specialized Programs of Research Excellence (SPORE) nationwide.",
+        "img": "https://i.ibb.co/4MDf6ks/x-ray-of-brain-showing-tumor-Computer-generated-images-with-correct-male-anatomy-showing-brain-with.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Liver Cancer",
+        
+        "description": "The UCLA Health Gastrointestinal Oncology Program delivers care through the Jonsson Comprehensive Cancer Center (JCCC). The JCCC has over 500 scientists and physicians who conduct cancer research and provide state-of-the-art cancer care.",
+        "img": "https://i.ibb.co/pZ7kDP7/download-2.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Lung Cancer",
+       
+        "description": "Lung cancer begins with abnormal cells in the lungs. When abnormal cells grow uncontrollably, tumors form. There are two main types of lung cancer Non-small cell lung cancer: A form of cancer that begins in the lungs. Non-small cell is the most common type of lung cancer.",
+        "img": "https://i.ibb.co/Yh04YVw/3.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Kidney Cancer",
+        
+        "description": "Our hereditary kidney cancer program evaluates the potential genetic causes that increase the risk for kidney cancer. Knowing about a specific genetic risk enables doctors to more precisely tailor a treatment plan that is optimal for you. Learn more about the cancer genetics program at UCLA Health.",
+        "img": "https://i.ibb.co/ZX2Cbkn/4.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Kidney Cancer",
+        
+        "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
+        "img": "https://i.ibb.co/FgQ3jXp/5.jpg"
+    },
+    {
+        "id": 6,
+        "name": "Colorectal Cancer",
+        
+        "description": "You can inherit certain types of colorectal cancers, such as Lynch syndrome. That’s why UCLA Health’s Colorectal Cancer Program offers genetic testing, counseling and guidance. Our specialists evaluate factors that increase your risk and help you make important decisions about your health. Learn more about our cancer genetics program.",
+        "img": "https://i.ibb.co/cL3qGb7/Medical-illustration-of-Colorectal-Cancer-Polyp.jpg"
+    }
+]
