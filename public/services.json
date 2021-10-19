@@ -18,21 +18,21 @@
         "name": "Lung Cancer",
        
         "description": "Lung cancer begins with abnormal cells in the lungs. When abnormal cells grow uncontrollably, tumors form. There are two main types of lung cancer Non-small cell lung cancer: A form of cancer that begins in the lungs. Non-small cell is the most common type of lung cancer.",
-        "img": "https://i.ibb.co/Yh04YVw/3.jpg"
+        "img": "https://i.ibb.co/Wx3d8Jd/download-1.jpg"
     },
     {
         "id": 4,
         "name": "Kidney Cancer",
         
         "description": "Our hereditary kidney cancer program evaluates the potential genetic causes that increase the risk for kidney cancer. Knowing about a specific genetic risk enables doctors to more precisely tailor a treatment plan that is optimal for you. Learn more about the cancer genetics program at UCLA Health.",
-        "img": "https://i.ibb.co/ZX2Cbkn/4.jpg"
+        "img": "https://i.ibb.co/QpbQY3V/Human-kidney-cancer-anatomy-medical-concept-as-cancerouse-cells-in-a-human-body-attacking-the-urinar.jpg"
     },
     {
         "id": 5,
-        "name": "Kidney Cancer",
+        "name": "Prostate Cancer",
         
-        "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
-        "img": "https://i.ibb.co/FgQ3jXp/5.jpg"
+        "description": "The surgical removal of the entire prostate. Surgeons at UCLA Health typically perform this procedure using a minimally invasive, robotic-assisted approach. This type of surgery enables surgeons to preserve sexual function and urinary contro",
+        "img": "https://i.ibb.co/PQNNgjt/download.jpg"
     },
     {
         "id": 6,

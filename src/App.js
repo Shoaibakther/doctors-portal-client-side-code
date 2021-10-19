@@ -7,11 +7,15 @@ import Services from './Components/Services/Services';
 import Technology from './Components/Technology/Technology';
 import Doctor from './Components/Doctor/Doctor';
 import NotFound from './Components/NotFound/NotFound';
+import Login from './Components/Login/Login';
+import Register from './Components/Register/Register';
+import AuthProvider from './Context/AuthProvider';
 
 function App() {
   return (
     <div className="App">
-      <BrowserRouter>
+      <AuthProvider>
+        <BrowserRouter>
         <Header></Header>
         <Switch>
           <Route exact path="/">
@@ -29,11 +33,18 @@ function App() {
           <Route path="/doctor">
             <Doctor></Doctor>
           </Route>
+          <Route path="/login">
+            <Login></Login>
+          </Route>
+          <Route path="/register">
+            <Register></Register>
+          </Route>
           <Route path="*">
             <NotFound></NotFound>
           </Route>
         </Switch>
       </BrowserRouter>
+      </AuthProvider>
     </div>
   );
 }

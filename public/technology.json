@@ -1,0 +1,18 @@
+[
+    {
+        "img": "https://i.ibb.co/3TQ9nnx/download-3.jpg",
+        "name": "Linear Accelerators",
+        "info": "This technology, the platform for IMRT and IGRT, permits specialists to deposit variable amounts of radiation in a highly controlled fashion. The Linear Accelerator treatment machine uses a computerized tool to shape the radiation beam in accordance with the optimized treatment plan."
+        
+    },
+    {
+        "img": "https://i.ibb.co/ts4JhFQ/radiation-therapy-patient-linac-oncoprim.jpg",
+        "name": "IMRT",
+        "info": "Intensity Modulated Radiation Therapy offers potential benefits for the treatment of many cancer types. The technology enables radiation oncologists to bombard cancer cells with higher doses of radiation than those previously delivered,"
+    },
+    {
+        "img": "https://i.ibb.co/SwqNXMB/IGRT-Procedure.jpg",
+        "name": "IGRT",
+        "info": "Image Guided Radiation Therapy provides a unique treatment advantage: it has the potential to achieve both unparalleled tumor control and normal tissue sparing. The radiation beam can be shaped to match the dimensions of a tumor"
+    }
+]
