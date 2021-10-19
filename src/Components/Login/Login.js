@@ -5,7 +5,7 @@ import { Link, useLocation, useHistory } from 'react-router-dom';
 import useAuth from '../../Context/useAuth';
 
 const Login = () => {
-    const {signInUsingGoogle,handleRegistration, handEmailChange,handlePasswordChange} = useAuth();
+    const {signInUsingGoogle,handleRegistration, handleEmailChange,handlePasswordChange,error,isLogin,toggleLogin} = useAuth();
   const location = useLocation();
   const history = useHistory();
   const redirect_uri = location.state?.form || '/home'
@@ -20,11 +20,11 @@ const Login = () => {
             <div className="form">
   
 <img src={logo} alt="" />
-                             
+          <h3 className="text-primary">Please {isLogin ? 'Login' : 'Register'}</h3>                   
 <form onSubmit={handleRegistration}>
   <div className="form-group">
     <label htmlFor="exampleInputEmail1">Email address:</label>
-    <input type="email" onBlur={handEmailChange} placeholder="Your Email " className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"/>
+    <input type="email" onBlur={handleEmailChange} placeholder="Your Email " className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"/>
     
   </div>
   <div className="form-group">
@@ -32,11 +32,14 @@ const Login = () => {
     <input type="password" onBlur={handlePasswordChange} placeholder="Password" className="form-control" id="exampleInputPassword1"/>
   </div>
   <div className="form-group form-check ">
-    <input type="checkbox" className="form-check-input" id="exampleCheck1"/>
+    <input onChange={toggleLogin} type="checkbox" className="form-check-input" id="exampleCheck1"/>
     <label className="form-check-label" htmlFor="exampleCheck1">Already Registered?</label>
                     </div>
                     <br /><br />
-  <button type="submit" className="btn btn-primary">Submit</button>
+  <div className="row mb-3 text-danger">{error}</div>
+        <button type="submit" className="btn btn-primary">
+          {isLogin ? 'Login' : 'Register'}
+        </button>
 </form>
 <div>--------Or----------</div>
 <button onClick={handleGoogleLogin} className="btn-regular btn-primary mb-5">Google Sign In</button>
