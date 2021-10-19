@@ -83,8 +83,6 @@ const useFirebase = () => {
     return {
         user,
         error,
-        email,
-        password,
         signInUsingGoogle,
         handleEmailChange,
         handlePasswordChange,
