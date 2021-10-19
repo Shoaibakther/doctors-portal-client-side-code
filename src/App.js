@@ -10,6 +10,8 @@ import NotFound from './Components/NotFound/NotFound';
 import Login from './Components/Login/Login';
 import Register from './Components/Register/Register';
 import AuthProvider from './Context/AuthProvider';
+import PrivateRoute from './Components/PrivateRoute/PrivateRoute';
+import Details from './Components/Details/Details/Details';
 
 function App() {
   return (
@@ -38,7 +40,10 @@ function App() {
           </Route>
           <Route path="/register">
             <Register></Register>
-          </Route>
+            </Route>
+            <PrivateRoute path="/details/:detailsId">
+              <Details></Details>
+            </PrivateRoute>
           <Route path="*">
             <NotFound></NotFound>
           </Route>
